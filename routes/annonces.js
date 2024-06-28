@@ -2,6 +2,7 @@ const express = require("express");
 const Annonce = require("../models/Annonce");
 const router = express.Router();
 
+
 // READ
 /**
  * @swagger
@@ -31,7 +32,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /annonces:
+ * /:
  *   get:
  *     summary: Returns a list of all annonces
  *     responses:
